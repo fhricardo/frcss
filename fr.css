@@ -74,3 +74,8 @@ p {
 li {
     list-style-position: inside;
 }
+
+hr {
+    border-top: 1px solid dodgerblue;
+    margin: .5rem 0px;
+}
