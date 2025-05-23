@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -78,4 +80,12 @@ li {
 hr {
     border-top: 1px solid dodgerblue;
     margin: .5rem 0px;
+}
+
+code {
+    background-color: #18181f;
+    color: #fafafa;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    font-family: "Reddit Mono", monospace;
 }
