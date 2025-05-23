@@ -109,12 +109,12 @@
 }
 
 body {
-    padding: 2rem;
     background-color: #fafafa;
 }
 
 main {
-    width: 1280px;
+    width: 1040px;
+    height: calc(100vh - 8rem);
     padding: 1rem;
     margin: 0 auto;
 }
@@ -231,4 +231,50 @@ input[type="submit"] {
     background-color: #0055ff;
     color: #fff;
     cursor: pointer;
+}
+
+header {
+    width: 100%;
+    background-color: #464646;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    nav {
+        width: 1040px;
+        height: 3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem;
+            border-radius: 0.25rem;
+            transition: background-color 0.2s ease;
+
+            &:hover {
+                background-color: #333;
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    background-color: #464646;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 0.875rem;
 }
