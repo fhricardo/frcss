@@ -287,7 +287,7 @@ footer {
     flex-wrap: wrap;
     gap: .5rem;
 
-    a {
+    .btn {
         width: 25%;
     }
 }
@@ -298,7 +298,7 @@ footer {
         margin: 1rem 1rem;
     }
 
-    .link a {
+    .link .btn {
         width: 100%;
     }
 }
