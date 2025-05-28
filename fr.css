@@ -279,3 +279,10 @@ footer {
     color: #fff;
     font-size: 0.875rem;
 }
+
+@media(max-width: 1000px) {
+    main {
+        width: calc(100% - 2rem);
+        margin: 1rem 1rem;
+    }
+}
