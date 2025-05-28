@@ -116,7 +116,7 @@ main {
     width: 1040px;
     height: calc(100vh - 8rem);
     padding: 1rem;
-    margin: 0 auto;
+    margin: 1rem auto;
 }
 
 .flexr {
@@ -210,6 +210,7 @@ code {
     flex-direction: column;
     border: 1px solid #ccc;
     padding: 1rem;
+    margin: 0 auto;
     border-radius: .5rem;
 }
 
