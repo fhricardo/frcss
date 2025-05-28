@@ -67,10 +67,16 @@
     color: var(--text-light);
     justify-content: center;
     align-items: center;
+
+    &:hover {
+        filter: brightness(.8);
+    }
 }
 
 .btn-primary {
     background-color: var(--primary);
+
+
 }
 
 .btn-secondary {
@@ -317,7 +323,6 @@ footer {
             text-transform: uppercase;
 
             &:hover {
-                background-color: #fafafa;
                 cursor: pointer;
             }
 
